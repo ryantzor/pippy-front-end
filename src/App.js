@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react'
+const Google = require('google-api-wrapper')
 
 import logo from './pippy.png';
 import './App.css';
 import token from './token.json'
-// const Google = require('google-api-wrapper');
 
 const App = () => {
   const hiddenFileInput  = useRef(null);
