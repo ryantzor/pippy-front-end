@@ -2,6 +2,11 @@
 
 This project serves the Sal's bistro community to supply the dankest memes possible. For now we are trying to get mp3 uploadable content to play sounds in discord channels.
 
+## Version info
+
+### node
+`LTS 16.13.1`
+
 ## To Run stuff
 
 ### `npm start`
