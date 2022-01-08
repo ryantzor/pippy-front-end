@@ -1,10 +1,29 @@
 .App {
+  flex: 1;
   text-align: center;
 }
 
 .App-logo {
+  flex: 3;
   height: 40vmin;
+  justify-content: space-around;
   pointer-events: none;
+}
+
+.App-container-upload-btn {
+  flex: 3;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.App-upload-btn {
+  background-color: white;
+  color: black;
+  font-size: 40px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,6 +33,7 @@
 }
 
 .App-header {
+  flex: 5;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
